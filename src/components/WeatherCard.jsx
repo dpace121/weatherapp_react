@@ -11,7 +11,7 @@ const WeatherCard = () => {
     setLoading(true);
     try {
       const response = await fetch(
-        `https://api.openweathermap.org/data/2.5/weather?q=${param}&appid=8d2bafa1303a38f085aa24796b244d09`,
+        `https://api.openweathermap.org/data/2.5/weather?q=${param}&appid=API_KEY`,
       );
 
       const data = await response.json();
