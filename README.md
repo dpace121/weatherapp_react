@@ -50,11 +50,6 @@ cd weather-app
 npm install
 ```
 
-4. Create a `.env` file in root folder and add:
-
-```
-VITE_WEATHER_API_KEY=your_api_key_here
-```
 
 5. Start development server
 
@@ -67,8 +62,7 @@ npm run dev
 ## 🔐 API Key Setup
 
 * Get your free API key from https://openweathermap.org/api
-* Store it inside `.env` file
-* Never expose your API key directly in frontend code
+
 
 ---
 
@@ -83,15 +77,7 @@ src/
  ├── App.css
 ```
 
----
 
-## 🎯 Future Improvements
-
-* 🌤️ Add weather icons
-* 📍 Add location-based weather (Geolocation API)
-* 🌙 Add dark/light mode
-* 📱 Improve mobile responsiveness
-* 🧠 Add 5-day forecast feature
 
 
 ## ⭐ Support
